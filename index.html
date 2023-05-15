@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fejszámolás</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./icons/css/all.min.css" />
+  </head>
+  <body>
+    <main class="flex items-center justify-center min-h-screen">
+        <div class="grid place-items-center max-w-[500px] w-11/12 border border-slate-300 py-4 rounded shadow-xl">
+          <h1 class="text-center text-3xl mt-4 mb-4 text-blue-700">Jó vagy fejszámolásban?</h1>
+          <button class="border border-blue-500 shadow-md hover:shadow-xl py-2 capitalize px-4 text-blue-500 mb-3 hover:bg-blue-500 hover:text-white transition duration-500 linear" id="newNumbersButton">új számokat kérek</button>
+          <div id="numbers" class="text-slate-600"></div>
+          <input type="number" id="resultInput" class="outline-none p-3 text-slate-600" placeholder="Eredmény">
+          <div id="feedback"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
